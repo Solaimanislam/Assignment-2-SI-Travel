@@ -212,6 +212,7 @@ button[type="submit"] {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #FFF;
+    text-align: center;
     font-weight: 800;
     font-size: 1.7rem;
 }
@@ -568,11 +569,13 @@ footer {
         left: 350px;
     }
 
-    .nav h2,
-    .nav-span {
+    
+    .logo-span, .logo-title {
         padding-top: 10px;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
+   
+    
 
     nav>ul {
         display: none;
@@ -645,9 +648,13 @@ footer {
         width: 340px;
         height: 342px;
     }
+    .my-img-text {
+        font-size: 1.2rem;
+    }
 
     .img-text {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        text-align: center;
     }
 
     .destination-img-2,
