@@ -563,6 +563,7 @@ footer {
 
 } */
 @media screen and (max-width: 576px) {
+   
     .checkbtn {
         display: block;
         position: absolute;
@@ -582,7 +583,8 @@ footer {
     }
 
     .banner {
-        margin: 20px;
+        margin: 10px;
+        width: 350px;
     }
 
     .banner-title {
@@ -600,17 +602,23 @@ footer {
         align-items: center;
         gap: 10px;
         margin: 0 20px;
+        margin-right: 100px;
         background: rgba(255, 255, 255, 0.30);
-        width: 300px;
+        width: 280px;
+        padding-left: 10px;
+        padding-right: 20px;
 
     }
 
     .input-2 {
         height: 50px;
+        
     }
+    
 
     .input-section input {
-        width: 250px;
+        width: 200px;
+        padding-right: 30px;
     }
 
     .input-2 button {
@@ -620,12 +628,13 @@ footer {
     }
 
     button[type="submit"] {
-        width: 280px;
+        width: 230px;
     }
 
     .popular {
         display: flex;
         flex-direction: column;
+        margin-left: 20px;
     }
 
     .popular-title,
@@ -647,6 +656,9 @@ footer {
     .images-1 {
         width: 340px;
         height: 342px;
+    }
+    .image-1 img {
+        width: 350px;
     }
     .my-img-text {
         font-size: 1.2rem;
@@ -673,6 +685,9 @@ footer {
         flex-direction: column;
         padding: 0 20px;
     }
+    .choose-optional {
+        width:100%;
+    }
 
     .hotel-choose,
     .map-choose,
@@ -697,6 +712,9 @@ footer {
     .news-title input {
         width: 280px;
     }
+    .news-img {
+        width: 350px;
+    }
 
     .news-input {
         margin: 0;
@@ -708,7 +726,7 @@ footer {
     }
 
     .news-img img {
-        width: 380px;
+        width: 350px;
         height: 250px;
     }
     .perfect-section-title {
