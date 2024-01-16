@@ -453,8 +453,15 @@ button[type="submit"] {
 
 .btn {
     width: 390px;
-    margin-right: 20px;
     margin-top: 20px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    padding: 14px 50px;
+    color: #FFF;
+    font-weight: 700;
+    margin-left: 5px;
+    font-size: 1rem;
+    border: none;
     /* margin-top: 20px; */
 }
 
@@ -620,6 +627,18 @@ button[type="submit"] {
         width: 300px;
         padding: 0 15px;
     }
+    .left-layout {
+        margin-bottom: 5px;
+    }
+    .right-layout {
+        margin-bottom: 5px;
+    }
+    .first-img{
+        /* height: 265px; */
+    }
+    .video-layout {
+        /* padding-bottom: 10px; */
+    }
 
     .news-title {
         width: 350px;
@@ -634,13 +653,25 @@ button[type="submit"] {
     }
 
     .btn {
-        width: 100%;
-        margin: 0;
-        /* margin-right: 5px; */
+        width: 320px;
+        margin: 10px
     }
 
     .news-img img {
-        width: 350px;
+        width: 380px;
+        height: 250px;
+    }
+    .offer-title{
+        font-size: 0.8rem;
+    }
+    .offer-content {
+        font-size: 1.2rem;
+    }
+    .offer-banner {
+        width: 180px;
+        height: 80px;
+        padding-top: 5px;
+        margin: 0;
     }
 
 }
