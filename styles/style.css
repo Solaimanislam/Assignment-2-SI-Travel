@@ -561,9 +561,9 @@ footer {
 
 } */
 @media screen and (max-width: 576px) {
-    * {
+    /* * {
         border: 1px solid tomato;
-       }
+       } */
     .checkbtn {
         display: block;
         position: absolute;
