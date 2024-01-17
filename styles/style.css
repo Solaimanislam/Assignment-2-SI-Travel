@@ -392,7 +392,7 @@ button[type="submit"] {
     position: absolute;
     top: 85%;
     left: 0;
-    right: 0;
+    right: 15%;
     margin: 0 25px;
 
 }
@@ -466,9 +466,7 @@ button[type="submit"] {
     /* margin-top: 20px; */
 }
 
-.news-img {
-    /* background-image: url('../Images/Rectangle\ 8\ \(1\).png'); */
-}
+
 
 .offer-banner {
     border-radius: 16px;
@@ -563,7 +561,9 @@ footer {
 
 } */
 @media screen and (max-width: 576px) {
-   
+    /* * {
+        border: 1px solid tomato;
+       } */
     .checkbtn {
         display: block;
         position: absolute;
@@ -602,7 +602,7 @@ footer {
         align-items: center;
         gap: 10px;
         margin: 0 20px;
-        margin-right: 100px;
+        /* margin-right: 100px; */
         background: rgba(255, 255, 255, 0.30);
         width: 280px;
         padding-left: 10px;
@@ -623,7 +623,7 @@ footer {
 
     .input-2 button {
         position: relative;
-        left: 120px;
+        left: 110px;
         top: -48px;
     }
 
@@ -686,15 +686,21 @@ footer {
         padding: 0 20px;
     }
     .choose-optional {
-        width:100%;
+        width:300px;
     }
 
     .hotel-choose,
     .map-choose,
-    .price-choose,
+    
     .choose-img {
         width: 300px;
         padding: 0 15px;
+    }
+    .price-choose{
+        width: 300px;
+        margin-left: 0;
+        padding-left: 5px;
+        
     }
 
     .left-layout {
@@ -713,7 +719,7 @@ footer {
         width: 280px;
     }
     .news-img {
-        width: 350px;
+        width: 355px;
     }
 
     .news-input {
@@ -726,7 +732,7 @@ footer {
     }
 
     .news-img img {
-        width: 350px;
+        width: 360px;
         height: 250px;
     }
     .perfect-section-title {
@@ -752,9 +758,10 @@ footer {
     }
     .footer-description {
         margin: 10px;
-    }
-    .footer-description{
         font-size: 0.8rem;
+    }
+    .footer-container {
+        width: 80%;
     }
     .hr-line {
         width: 300px;
