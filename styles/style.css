@@ -770,5 +770,8 @@ footer {
     .hr-line {
         width: 300px;
     }
+    .footer-container {
+        padding-left: 30px;
+    }
 
 }
